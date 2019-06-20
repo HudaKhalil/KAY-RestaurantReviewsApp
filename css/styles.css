@@ -46,10 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-#maincontent, #breadcrumb {
-  max-width: 1200px;
-  margin: auto;
-}
+
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
@@ -334,4 +331,50 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+/* ====================== Media Queries ====================== */
+@media only screen and (max-width: 1023px) and (min-width: 640px) {
+  .inside header {
+    position: relative;
+  }
+  .inside #breadcrumb {
+    width: calc(100% - 80px);
+  }
+  .inside #map-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top: 0;
+  }
+  .inside #restaurant-container {
+    width: calc(100% - 40px);
+    padding: 20px;
+  }
+  .inside #restaurant-img,
+  .inside #restaurant-address,
+  .inside #restaurant-cuisine {
+    width: 50%;
+  }
+  .inside #restaurant-hours {
+    position: relative;
+    left: absolute;
+    top: 15px;
+  }
+  .inside #reviews-container {
+    width: 100%;
+  }
+  .inside #reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inside #reviews-list li {
+    min-width: 300px;
+    max-width: 300px;
+    flex: 1;
+    margin-right: 20px;
+  }
+  .inside #footer {
+    position: static;
+    width: calc(100% - 24px);
+  }
 }
