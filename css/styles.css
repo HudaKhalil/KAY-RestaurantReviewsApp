@@ -249,7 +249,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
@@ -303,12 +303,17 @@ nav h1 a {
   padding-bottom: 0;
   width: 62%;
 }
+#reviews-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 #reviews-container h2 {
   color: #f58500;
-  font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
+	margin-right: 10px;
 }
 #reviews-list {
   margin: 0;
@@ -316,14 +321,13 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 1px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
-  overflow: hidden;
-  padding: 0 20px 20px;
-  position: relative;
-  width: 85%;
+	padding: 10px 20px 16px;
+	position: relative;
+	border-radius: 4px;
 }
 #reviews-list li p {
   margin: 0 0 10px;
