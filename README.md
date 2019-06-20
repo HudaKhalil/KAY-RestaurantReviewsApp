@@ -11,5 +11,6 @@ This is a proof-of-concept of the **Restaurant Reviews** project, It was forked 
 ## Stage 1 Modifcation Steps
 
 - **Step#1** The App launched using a simple http server.
-- **Step#2** Modify layout to be fully responsive and accessible Web App
+- **Step#2** Modify layout to responsive and accessible Web App
 - **Step#3** Personalize the App by adding some custom colors and effects to the layout.
+- **Step#4** Determine Breakpoints to make the web app fully responsive across different  viewport sizes.
