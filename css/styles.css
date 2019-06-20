@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 10pt;
+	font-size: 20pt;
 	color: #333;
 	line-height: 1.5;
 }
@@ -18,13 +18,14 @@ ul, li {
 	color: red;
 }
 a {
-	color: orange;
+	color: #162c84;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #3397db;
+	color: #e50b91;
 	text-decoration: none;
 }
+
 a img{
 	border: none 0px #fff;
 }
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0 0 20px;
 }
+
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -40,8 +42,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 }
 #footer {
-  background-color: #444;
-  color: #aaa;
+	font-family: 'Josefin Sans', sans-serif;
+  background-color: #7eddb4;
+  color: #000;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -52,17 +55,17 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: 80px;
-  background-color: #252831;
+  background-color: #162c84;
   text-align:center;
 }
 nav h1 {
   margin: auto;
 }
 nav h1 a {
-  color: #fff;
-  font-size: 14pt;
+  color: #e5e5e5;
+  font-size: 20pt;
   font-weight: 200;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 #breadcrumb {
@@ -112,7 +115,7 @@ nav h1 a {
 }
 .filter-options h2 {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
@@ -170,7 +173,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #7eddb4;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
