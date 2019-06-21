@@ -14,3 +14,5 @@ This is a proof-of-concept of the **Restaurant Reviews** project, It was forked 
 - **Step#2** Modify layout to responsive and accessible Web App
 - **Step#3** Personalize the App by adding some custom colors and effects to the layout.
 - **Step#4** Determine Breakpoints to make the web app fully responsive across different  viewport sizes.
+- **Step#5** Run Accessibility Check on DevTools Audit
+- **Step#6** Fix Accessibility Issues
