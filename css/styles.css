@@ -56,7 +56,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
 	font-family: 'Josefin Sans', sans-serif;
-  background-color: #7eddb4;
+  background-color: #cedba5;
   color: #000;
   font-size: 8pt;
   letter-spacing: 1px;
@@ -68,7 +68,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: 40%;
-  background-color: #162c84;
+  background: #1769aa;
   text-align:center;
 	display: grid;
   line-height: 1.4;
@@ -78,12 +78,22 @@ nav h1 {
 	 display: inline-block;
 }
 nav h1 a {
-  color: #e5e5e5;
+  font-family: 'Special Elite', cursive;
+  color: #b9db92;
+  text-shadow: 1.5px 1.5px #0096a9;
   font-size: 20pt;
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 5px;
-  text-transform: uppercase;
+
 }
+#main_header span {
+font-size: 1.4em;
+font-weight: bold;
+color: white;
+text-decoration:none;
+text-shadow: 2px 2px #aea5a5;
+}
+
 #breadcrumb {
 	padding: 16px 40px;
 	list-style: none;
@@ -129,18 +139,18 @@ nav h1 a {
   width: 100%;
 }
 .filter-options {
-  background-color: #3397DB;
+  background-color:#cedba5;
   align-items: center;
 	padding: 2.5px;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
 }
 .filter-options h2 {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: normal;
+  color: #104b79;
+  text-shadow: 1.5px 1.5px #0096a9;
+  font-size: 25px;
+  font-weight: bold;
   line-height: 1;
   margin: 0 20px;
 }
@@ -188,7 +198,7 @@ nav h1 a {
   border-radius: 30px 0 30px 0;
 }
 #restaurants-list .restaurant-img {
-  display:inline-grid;
+  display: block;
   margin: 0;
   max-width: 100%;
   min-width: 100%;
@@ -196,9 +206,10 @@ nav h1 a {
   padding: 10px;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color:#19c2d8;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 16pt;
+  text-shadow: 1.5px 1.5px #0096a9;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 1.3;
@@ -213,7 +224,7 @@ nav h1 a {
   align-content:center;
 }
 #restaurants-list li a {
-  background-color: #7eddb4;
+  background: linear-gradient(120deg, #1a78c2 0%, #4DC7A2 100%);
   color: #fff;
   display:grid;
   font-size: 10pt;
