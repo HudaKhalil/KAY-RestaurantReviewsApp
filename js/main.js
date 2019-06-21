@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
 });
-
 /**
  * Fetch all neighborhoods and set their HTML.
  */
@@ -161,6 +160,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = `${restaurant.name}`;
   li.append(image);
 
   const name = document.createElement('h1');
