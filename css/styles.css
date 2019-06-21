@@ -132,7 +132,7 @@ text-shadow: 2px 2px #aea5a5;
 #map {
   height: 50vh;
   width: 100%;
-  background-color: #ccc;
+  background-color: #94ccf9;
 }
 #map-container {
   width: 100%;
@@ -209,10 +209,10 @@ text-shadow: 2px 2px #aea5a5;
   padding: 10px;
 }
 #restaurants-list li h1 {
-  color:#19c2d8;
+  color: #14A3B3;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16pt;
-  text-shadow: 1.5px 1.5px #0096a9;
+  text-shadow: 1px 1px #0096a9;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 1.3;
