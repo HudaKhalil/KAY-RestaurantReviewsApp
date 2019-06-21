@@ -33,7 +33,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #e50b91;
+	color: #dceb90;
 	text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ nav h1 {
 nav h1 a {
   font-family: 'Special Elite', cursive;
   color: #7ed7bb;
-  text-shadow: 1.5px 1.5px #0096a9;
+  text-shadow: 1.5px 1.5px #467868;
   font-size: 20pt;
   font-weight: bold;
   letter-spacing: 5px;
@@ -95,7 +95,7 @@ font-size: 1.4em;
 font-weight: bold;
 color: #e1ea88;
 text-decoration:none;
-text-shadow: 2px 2px #aea5a5;
+text-shadow: 2px 2px #494f14;
 }
 
 #breadcrumb {
