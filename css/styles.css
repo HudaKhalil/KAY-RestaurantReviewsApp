@@ -93,7 +93,7 @@ nav h1 a {
 #main_header span {
 font-size: 1.4em;
 font-weight: bold;
-color: #e43870;
+color: #e1ea88;
 text-decoration:none;
 text-shadow: 2px 2px #aea5a5;
 }
@@ -178,7 +178,7 @@ text-shadow: 2px 2px #aea5a5;
 }
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  background-color: #f3f3f3;
+  background-color: #e1ea88;
   list-style: outside none none;
   margin: 0;
 	padding: 10px 15px;
