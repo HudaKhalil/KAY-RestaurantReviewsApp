@@ -112,6 +112,22 @@ updateRestaurants = () => {
 
   const cuisine = cSelect[cIndex].value;
   const neighborhood = nSelect[nIndex].value;
+//add a click event listener
+  nSelect.addEventListener('click', function() {
+  if(this.getAttribute('aria-expanded') === 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  } else {
+    this.setAttribute("aria-expanded", "false");
+  }
+});
+
+cSelect.addEventListener('click', function () {
+  if (this.getAttribute('aria-expanded') === 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  } else {
+    this.setAttribute("aria-expanded", "false");
+  }
+});
 
   DBHelper.fetchRestaurantByCuisineAndNeighborhood(cuisine, neighborhood, (error, restaurants) => {
     if (error) { // Got an error!
@@ -159,7 +175,8 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = `${restaurant.name}`;
+  //Adding alt attribute to created images
+  image.alt = `Picture of the ${restaurant.name} restaurant`;
   li.append(image);
 
   const name = document.createElement('h1');
@@ -177,6 +194,8 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
+  //Adding appropriate tabbing experience
+  more.tabindex = "3";
   li.append(more)
 
   return li
