@@ -25,11 +25,11 @@ This is a proof-of-concept of the **Restaurant Reviews** project, It was forked 
 
 - **Step#4** Determine Breakpoints to make the web app fully responsive across different  viewport sizes.
 
-- **Step#5** Run Accessibility Check on DevTools Audit.
+- **Step#5** Implement accessibility features, to insure  main page and restaurant detail page accessible for user.
 
-- **Step#6** Implement accessibility features, to insure  main page and restaurant detail page accessible for user.
+- **Step#6** Add a Service Worker script  for rich offline experiences.
 
-- **Step#7** Add a ServiceWorker script  for rich offline experiences.
+- **Step#7** Run Accessibility Check on DevTools Audit.
 
 - **Step#8** Fix Accessibility Issues.
 
