@@ -1,6 +1,9 @@
-# KAY Resturant Reviews App
+# Resturant Reviews App
 
 #### _Front End Web Developer Nanodegree Program Project_
+
+
+![Restaurant Review App](https://ibb.co/DL4PSvm)
 
 ## Overview: Stage 1
 
