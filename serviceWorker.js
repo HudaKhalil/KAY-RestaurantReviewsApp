@@ -60,16 +60,9 @@ self.addEventListener("activate", function(event) {
 // The fetch event of the service worker to look for a file in the cache and if that file is in the cache serve it to the user
 
 self.addEventListener("fetch", function(event) {
-  event.respondWith(async function() {
-    const response = await caches.match(event.request);
-    return (
-      response ||
-      fetch(event.request).then(response => {
-        return caches.open(cacheName).then(cache => {
-          cache.put(event.request, response.clone());
-          return response;
-        });
-      })
-    );
-  });
+  event.respondWith(
+    fetch(event.request).catch(function() {
+      return caches.match(event.request);
+    })
+  );
 });
