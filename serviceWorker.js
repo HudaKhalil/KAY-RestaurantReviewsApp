@@ -9,7 +9,6 @@ const files = [
   "js/dbhelper.js",
   "js/restaurant_info.js",
   "css/styles.css",
-  "css/media_queries.css",
   "data/restaurants.json",
   "img/1.jpg",
   "img/2.jpg",
