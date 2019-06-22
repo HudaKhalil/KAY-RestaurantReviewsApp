@@ -16,6 +16,6 @@ This is a proof-of-concept of the **Restaurant Reviews** project, It was forked 
 - **Step#4** Determine Breakpoints to make the web app fully responsive across different  viewport sizes.
 - **Step#5** Run Accessibility Check on DevTools Audit
 - **Step#6** Fix Accessibility Issues
-    -- Fix Color contrast issue in headings
-    -- Add "alt" attribute for image tages in main and resturant info pages.
+-- Fix Color contrast issue in headings
+-- Add "alt" attribute for image tages in main and resturant info pages.
 
