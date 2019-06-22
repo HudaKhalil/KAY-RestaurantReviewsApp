@@ -21,4 +21,5 @@ This is a proof-of-concept of the **Restaurant Reviews** project, It was forked 
 - **Step#6** Fix Accessibility Issues
     - Fix Color contrast issue in headings
     - Add "alt" attribute for image tages in main and resturant info pages.
+    ![Restaurant Review Audit](https://github.com/HudaKhalil/RestaurantReviewsApp/blob/master/img/Audit.JPG)
 
