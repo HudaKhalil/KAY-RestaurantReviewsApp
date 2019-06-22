@@ -19,7 +19,11 @@ const files = [
   "img/7.jpg",
   "img/8.jpg",
   "img/9.jpg",
-  "img/10.jpg"
+  "img/10.jpg",
+  "img/favicon.jpg",
+  "https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap",
+  "https://fonts.googleapis.com/css?family=Special+Elite&display=swap",
+  "https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
 ];
 
 // The install event of the service worker puts all needed files in the cache
