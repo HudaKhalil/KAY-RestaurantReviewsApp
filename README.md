@@ -3,7 +3,7 @@
 #### _Front End Web Developer Nanodegree Program Project_
 
 
-![Restaurant Review App](https://ibb.co/DL4PSvm)
+![Restaurant Review App](https://github.com/HudaKhalil/RestaurantReviewsApp/blob/master/img/RestaurantReviewApp.jpg)
 
 ## Overview: Stage 1
 
