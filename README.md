@@ -11,6 +11,8 @@ Restaurant Reviews App is FREE app dedicated to helping you find the best food a
 
 This is a proof-of-concept of the **Restaurant Reviews** project, It was forked from a static master/detail page [starter repository](https://github.com/udacity/mws-restaurant-stage-1) provided by Udacity. It is my graduation project for Udacity's Front End Web Developer Nanodegree.
 
+Restaurant Review App [Live Demo](http://kay-restaurantreviews.surge.sh/)
+
 ## Stage <1> Steps
 
 - **Step#1** The App launched using a simple http server.
